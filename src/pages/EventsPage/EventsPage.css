@@ -1,0 +1,84 @@
+.events-page {
+  background-color: #f9f9f9;
+  min-height: calc(100vh - 70px);
+}
+
+.events-hero {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/assets/images/heroes/events-hero.jpg") center/cover;
+  color: white;
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.events-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.events-hero p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.events-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.day-section {
+  margin-bottom: 3rem;
+}
+
+.day-title {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+@media (max-width: 992px) {
+  .events-hero {
+    padding: 4rem 1.5rem;
+  }
+
+  .events-hero h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .events-hero {
+    padding: 3rem 1rem;
+  }
+
+  .events-hero h1 {
+    font-size: 2rem;
+  }
+
+  .events-hero p {
+    font-size: 1rem;
+  }
+
+  .events-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .events-container {
+    padding: 2rem 1rem;
+  }
+
+  .day-title {
+    font-size: 1.5rem;
+  }
+}

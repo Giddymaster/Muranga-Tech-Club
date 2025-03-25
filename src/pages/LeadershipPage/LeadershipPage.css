@@ -1,0 +1,38 @@
+.leadership-page {
+  background-color: #f9f9f9;
+  min-height: calc(100vh - 70px);
+}
+
+.leadership-hero {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/assets/images/heroes/leadership-hero.jpg") center/cover;
+  color: white;
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.leadership-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.leadership-hero p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .leadership-hero {
+    padding: 4rem 1rem;
+  }
+
+  .leadership-hero h1 {
+    font-size: 2rem;
+  }
+
+  .leadership-hero p {
+    font-size: 1rem;
+  }
+}

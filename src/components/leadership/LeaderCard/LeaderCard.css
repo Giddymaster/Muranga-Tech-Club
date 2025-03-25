@@ -1,0 +1,17 @@
+.learn-more-button {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.learn-more-button:hover {
+  background-color: #1a252f;
+  transform: translateY(-2px);
+}
