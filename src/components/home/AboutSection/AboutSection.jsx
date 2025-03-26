@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutSection.css";
-import aboutImage from "../../../../public/assets/images/misc/mutc-logo.jpeg";
+import aboutImage from "../../../assets/misc/mutc-logo.jpeg";
 
 const AboutSection = () => {
   return (

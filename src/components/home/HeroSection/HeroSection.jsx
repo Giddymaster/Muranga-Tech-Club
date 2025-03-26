@@ -1,11 +1,12 @@
 import React from "react";
 import "./HeroSection.css";
+import HeroVid from "../../../assets/misc/hero-background.mp4"
 
 const HeroSection = () => {
   return (
     <section className="hero-section">
       <div className="hero-content">
-        <h1 className="hero-title">Innovate. Create. Elevate.</h1>
+        <h1 className="hero-title">Learn by Coding Real-Life Projects</h1>
         <p className="hero-subtitle">
           Join Murang'a University Tech Club and transform your ideas into
           reality
@@ -16,15 +17,15 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="hero-overlay"></div>
-      {/* <video
+      <video
         autoPlay
         loop
         muted
         className="hero-video"
         poster="/assets/images/heroes/hero-poster.jpg"
       >
-        <source src="/assets/videos/hero-background.mp4" type="video/mp4" />
-      </video> */}
+        <source src={HeroVid} type="video/mp4" />
+      </video>
     </section>
   );
 };
