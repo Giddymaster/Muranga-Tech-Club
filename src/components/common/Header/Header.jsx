@@ -8,7 +8,7 @@ const Header = () => {
       <div className="header-container">
         <Link to="/" className="logo-link">
           <img
-            src="/assets/images/logos/mutc-logo.png"
+            src="../../../../public/assets/images/misc/mutc-logo.jpeg"
             alt="MUTC Logo"
             className="logo-image"
           />
