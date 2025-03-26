@@ -4,7 +4,6 @@ import HomePage from "./pages/Homepage/HomePage";
 import LeadershipPage from "./pages/LeadershipPage/LeadershipPage";
 import TracksPage from "./pages/TracksPage/TracksPage";
 import EventsPage from "./pages/EventsPage/EventsPage";
-import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 
 function App() {
   return (
