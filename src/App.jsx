@@ -15,7 +15,6 @@ function App() {
           <Route path="/leadership" element={<LeadershipPage />} />
           <Route path="/tracks" element={<TracksPage />} />
           <Route path="/events" element={<EventsPage />} />
-          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </Layout>
     </Router>
