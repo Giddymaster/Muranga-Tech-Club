@@ -31,7 +31,7 @@ export const leaders = [
       linkedin: "https://linkedin.com/in/dr-john-ndia",
     },
     responsibilities: "Club oversight, Strategic planning, Industry linkages",
-    image: "/assets/images/leaders/dr-john.jpg",
+    image: "/assets/images/leaders/Dr.-John-Ndia.webp",
   },
   {
     id: 2,
@@ -61,7 +61,7 @@ export const leaders = [
     },
     responsibilities:
       "Overall club leadership, Event coordination, External relations",
-    image: "/assets/images/leaders/victory-njeri.jpg",
+    image: "/assets/images/leaders/victory-njeri.jpeg",
   },
   {
     id: 3,
@@ -90,7 +90,7 @@ export const leaders = [
     },
     responsibilities:
       "Deputizing chairperson, Membership development, Workshop facilitation",
-    image: "/assets/images/leaders/allan-muhari.jpg",
+    image: "/assets/images/leaders/Allan-muhari.jpeg",
   },
   {
     id: 4,
@@ -116,7 +116,7 @@ export const leaders = [
     },
     responsibilities:
       "Documentation, Meeting minutes, Communication coordination",
-    image: "/assets/images/leaders/bridget-gitonga.jpg",
+    image: "/assets/images/leaders/bridget-gitonga.jpeg",
   },
   {
     id: 5,
@@ -142,7 +142,7 @@ export const leaders = [
       instagram: "https://instagram.com/ruth.mutisya",
     },
     responsibilities: "Budget management, Fundraising, Financial reporting",
-    image: "/assets/images/leaders/ruth-mutisya.jpg",
+    image: "/assets/images/leaders/ruth-mutisya.jpeg",
   },
   {
     id: 6,
@@ -248,7 +248,7 @@ export const leaders = [
     },
     responsibilities:
       "Mobile workshops, App development, Play Store/App Store publishing",
-    image: "/assets/images/leaders/stanley-amunze.jpg",
+    image: "/assets/images/leaders/stanley-amunze.jpeg",
   },
   {
     id: 10,
@@ -275,7 +275,7 @@ export const leaders = [
       twitter: "https://twitter.com/paul_karanja",
     },
     responsibilities: "Cloud workshops, Certification prep, Cloud challenges",
-    image: "/assets/images/leaders/paul-karanja.jpg",
+    image: "/assets/images/leaders/paul-karanja.jpeg",
   },
   {
     id: 11,
