@@ -3,6 +3,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Testimonials.css";
+import SarahImg from "../../../assets/testimonials/sarah.jpeg";
+import MichealIMg from "../../../assets/testimonials/micheal-karis.jpeg";
+import GraceImg from "../../../assets/testimonials/grace-mwende.jpeg";
+
 
 const testimonials = [
   {
@@ -11,7 +15,7 @@ const testimonials = [
     role: "Computer Science Student",
     content:
       "MUTC transformed my coding skills and helped me land my first internship. The hands-on projects and mentorship are invaluable.",
-    avatar: "/assets/images/misc/avatar1.jpg",
+    avatar: SarahImg,
   },
   {
     id: 2,
@@ -19,7 +23,7 @@ const testimonials = [
     role: "Alumni, Software Engineer",
     content:
       "The connections I made at MUTC opened doors to my current career. The club bridges academia and industry perfectly.",
-    avatar: "/assets/images/misc/avatar2.jpg",
+    avatar: MichealIMg,
   },
   {
     id: 3,
@@ -27,7 +31,7 @@ const testimonials = [
     role: "UI/UX Designer",
     content:
       "As a designer, MUTC gave me technical skills that complemented my creativity. The collaborative environment is amazing.",
-    avatar: "/assets/images/misc/avatar3.jpg",
+    avatar: GraceImg,
   },
 ];
 
