@@ -16,7 +16,7 @@ const HeroSection = () => {
         </div>
       </div>
       <div className="hero-overlay"></div>
-      <video
+      {/* <video
         autoPlay
         loop
         muted
@@ -24,7 +24,7 @@ const HeroSection = () => {
         poster="/assets/images/heroes/hero-poster.jpg"
       >
         <source src="/assets/videos/hero-background.mp4" type="video/mp4" />
-      </video>
+      </video> */}
     </section>
   );
 };

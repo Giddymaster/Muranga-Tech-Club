@@ -22,7 +22,6 @@ export const leaders = [
     publications: [
       "King'ori, A. W., Muketha, G. M., & Ndia, J. G. (2024). A Suite of Metrics for UML Behavioral Diagrams...",
       "Ochieng, F., Kaburu, D., & Ndia, J. G. (2023). Automation-Based User Input Sql Injection...",
-      // Additional publications...
     ],
     links: {
       googleScholar:
@@ -170,7 +169,7 @@ export const leaders = [
     },
     responsibilities:
       "Security workshops, CTF competitions, Security awareness",
-    image: "/assets/images/leaders/webster-ifedha.jpg",
+    image: "/assets/images/leaders/webster-ifedha.jpeg",
   },
   {
     id: 7,
@@ -196,7 +195,7 @@ export const leaders = [
       behance: "https://behance.net/manase-gunga",
     },
     responsibilities: "Design workshops, Portfolio reviews, Design challenges",
-    image: "/assets/images/leaders/manase-gunga.jpg",
+    image: "/assets/images/leaders/manase-gunga.jpeg",
   },
   {
     id: 8,
@@ -221,7 +220,7 @@ export const leaders = [
       github: "https://github.com/carolyne-gith",
     },
     responsibilities: "Web workshops, Hackathons, Project mentorship",
-    image: "/assets/images/leaders/carolyne-githenduka.jpg",
+    image: "/assets/images/leaders/carolyne-githenduka.jpeg",
   },
   {
     id: 9,
@@ -302,6 +301,6 @@ export const leaders = [
     },
     responsibilities:
       "Power Platform training, Business automation projects, Microsoft partnership",
-    image: "/assets/images/leaders/evyonn-mbithe.jpg",
+    image: "/assets/images/leaders/evyonn-mbithe.jpeg",
   },
 ];
