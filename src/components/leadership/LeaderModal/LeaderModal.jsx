@@ -51,6 +51,24 @@ const LeaderModal = ({ leader, onClose }) => {
                   <FaTwitter className="social-icon" />
                 </a>
               )}
+              {leader.links?.facebook && (
+                <a
+                  href={leader.links.facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaFacebook className="social-icon" />
+                </a>
+              )}
+              {leader.links?.instagram && (
+                <a
+                  href={leader.links.facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaInstagram className="social-icon" />
+                </a>
+              )}
               {leader.links?.googleScholar && (
                 <a
                   href={leader.links.googleScholar}

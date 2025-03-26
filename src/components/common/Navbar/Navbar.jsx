@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import LogoImg from "../../../assets/misc/mutc-logo.jpeg"
+import LogoImg from "../../../assets/misc/mutc-logo.jpeg";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -14,12 +14,10 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          <img
-            src={LogoImg}
-            alt="MUTC Logo"
-            className="logo-img"
-          />
-          <span className="logo-text">Murang'a University Tech Club (MUTC)</span>
+          <img src={LogoImg} alt="MUTC Logo" className="logo-img" />
+          <span className="logo-text">
+            Murang'a University Tech Club (MUTC)
+          </span>
         </Link>
 
         <div className={`nav-menu ${isOpen ? "active" : ""}`}>

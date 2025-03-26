@@ -1,6 +1,6 @@
 import React from "react";
 import "./HeroSection.css";
-import HeroVid from "../../../assets/misc/hero-background.mp4"
+import HeroVid from "../../../assets/misc/hero-background.mp4";
 
 const HeroSection = () => {
   return (

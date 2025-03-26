@@ -19,13 +19,6 @@ const LeadershipGrid = () => {
 
   return (
     <div className="leadership-grid">
-      <div className="leadership-header">
-        <h2 className="section-title">Meet Our Leadership</h2>
-        <p className="section-subtitle">
-          The dedicated team driving MUTC's vision forward
-        </p>
-      </div>
-
       <div className="leadership-section">
         <h3 className="leadership-category">Patron</h3>
         <div className="leaders-container">
